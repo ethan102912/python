@@ -7,5 +7,5 @@ else:
     print("華氏溫度" + str(f) + "f等於華氏溫度" + str(c) + "c")
 
 # git add .
-# git commit -m "提示文字"
+# git commit -m "class4"
 # git push

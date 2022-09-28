@@ -1,11 +1,14 @@
 """
-請使用者輸入身高(公尺)h以及體重(公斤)w
-透過下面公式計算出BMI數值並顯示計算結果
-​
+​​h =float(input("請輸入身高"))
+​w =float(input("請輸入身高"))
+bmi=w/h**2
+print("你的bmi為"+str(bmi)
+#14~20.2
 bmi = w/h**2
-​
-EX:
-請輸入身高:1.7
-請輸入體重:50
-你的BMI為17.301038062283737
+ 
 """
+
+h = float(input("請輸入身高"))
+w = float(input("請輸入身高"))
+bmi = w / h**2
+print("你的bmi為" + str(bmi))

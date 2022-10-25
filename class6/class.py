@@ -11,10 +11,7 @@ import turtle as t
 # turtle.penup() # 提筆
 t.penup()
 t.shape('turtle')
-for i in range(
-        0,
-        100,
-):
+for i in range(0, 100):
     t.forward(i)
     t.right(25)
     t.stamp()

@@ -1,3 +1,4 @@
+import operator
 import turtle as t
 
 t.shape('turtle')
@@ -7,5 +8,7 @@ for i in range(0, 360, 6):
     t.clear()
     t.home()
     t.right(i)
+    operator
+
     t.time.sleep(1)
 t.done()
